@@ -1,0 +1,26 @@
+# `docker compose up --build` -> http://127.0.0.1:8765 with the built-in synthetic fixture.
+# With a Finance Lake build (synthetic demo or your own), mounted read-only:
+#   FW_FIXTURE=0 FW_LAKE_DIR=../finance-lake-demo docker compose up
+services:
+  finance-wizard:
+    build: .
+    image: finance-wizard:local
+    ports:
+      - "127.0.0.1:${FW_HOST_PORT:-8765}:8765"   # localhost only
+    environment:
+      FW_FIXTURE: ${FW_FIXTURE:-1}               # 1 = built-in synthetic fixture (default), 0 = mounted lake
+      FW_LAKE_PATH: /lake/lake.duckdb
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      FW_MODEL: ${FW_MODEL:-gemma3:27b}
+    volumes:
+      - ${FW_LAKE_DIR:-./docker/empty-lake}:/lake:ro
+      - fw-data:/app/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8765/api/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  fw-data:
