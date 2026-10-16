@@ -111,4 +111,4 @@ More in [`docs/screenshots/`](docs/screenshots/).
 
 ## License
 
-TBD (MIT proposed). See `LICENSE`.
+MIT. See [`LICENSE`](LICENSE).
