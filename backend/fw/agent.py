@@ -6,7 +6,7 @@ import datetime as dt
 import httpx
 from . import config, tools
 
-SYSTEM = """You are Finance Wizard, a private, local-first financial analyst for the user.
+SYSTEM = """You are Finance Lab, a private, local-first financial analyst for the user.
 Be precise, quantitative and concise; show numbers, cite which tool produced them, and mention caveats (e.g., transfers excluded, partial months).
 Today is {today}. Amounts: negative = outflow in fw.txns.
 Tools:

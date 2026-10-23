@@ -31,7 +31,7 @@ export default function App() {
   return <div className="flex h-screen overflow-hidden">
     <nav className="flex w-56 shrink-0 flex-col border-r border-zinc-800 bg-zinc-950 p-3">
       <div className="mb-5 flex items-center gap-2 px-2 pt-1"><div className="grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-violet-500 to-cyan-400 font-bold text-black">₩</div>
-        <div><div className="text-sm font-semibold">Finance Wizard</div><div className="text-[10px] text-zinc-500">local · private · agent-first</div></div></div>
+        <div><div className="text-sm font-semibold">Finance Lab</div><div className="text-[10px] text-zinc-500">local · private · agent-first</div></div></div>
       {PAGES.map(([id, label, Icon]) => <button key={id} onClick={() => go(id)}
         className={'mb-0.5 flex items-center gap-2 rounded-lg px-2 py-1.5 text-sm ' + (page === id ? 'bg-violet-600/20 text-violet-200' : 'text-zinc-400 hover:bg-zinc-900 hover:text-zinc-200')}>
         <Icon size={15} />{label}</button>)}

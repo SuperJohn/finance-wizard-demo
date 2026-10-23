@@ -1,4 +1,6 @@
-# Finance Wizard
+# Finance Lab
+
+_Formerly Finance Wizard._
 
 An **agent-first, local-first** personal finance workbench. A tool-using AI analyst sits next to interactive,
 economist-grade charts and models, on top of a DuckDB finance lake that it reads **read-only**.

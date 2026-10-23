@@ -1,4 +1,4 @@
-# Finance Wizard. `make demo` builds the UI, then serves API + UI on http://127.0.0.1:8765.
+# Finance Lab. `make demo` builds the UI, then serves API + UI on http://127.0.0.1:8765.
 # Data: ../finance-lake-demo/lake.duckdb if present (run `make demo` there first), else the built-in synthetic fixture.
 LAKE ?= $(abspath ../finance-lake-demo/lake.duckdb)
 

@@ -4,7 +4,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from . import analytics as A, agent, data, store, tools, config
 
-app = FastAPI(title="Finance Wizard", version="0.1.0")
+app = FastAPI(title="Finance Lab", version="0.1.0")
 
 
 @app.on_event("startup")  # noqa

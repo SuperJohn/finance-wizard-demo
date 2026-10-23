@@ -1,4 +1,4 @@
-# Finance Wizard — portable demo image. Synthetic fixture data by default; see README "Docker".
+# Finance Lab — portable demo image. Synthetic fixture data by default; see README "Docker".
 FROM node:22-slim AS ui
 WORKDIR /ui
 COPY frontend/package*.json ./
