@@ -1,0 +1,17 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "accounts": [
+  {"id": "demo-chk", "account": "Demo Bank Checking (...0001)", "institution": "Demo Bank", "type": "depository", "subtype": "checking", "klass": "cash", "last4": "0001", "balance": 7998.53, "as_of": "2026-10-25"},
+  {"id": "demo-sav", "account": "Demo Bank Savings (...0002)", "institution": "Demo Bank", "type": "depository", "subtype": "savings", "klass": "cash", "last4": "0002", "balance": 26438.67, "as_of": "2026-10-25"},
+  {"id": "demo-card", "account": "Demo Rewards Card (...0003)", "institution": "Demo Card Co", "type": "credit", "subtype": "credit card", "klass": "liability", "last4": "0003", "balance": -1807.28, "as_of": "2026-10-25"},
+  {"id": "demo-brk", "account": "Demo Brokerage (...0004)", "institution": "Demo Brokerage", "type": "investment", "subtype": "brokerage", "klass": "investment", "last4": "0004", "balance": 52464.63, "as_of": "2026-10-25"},
+  {"id": "demo-ira", "account": "Demo Roth IRA (...0005)", "institution": "Demo Brokerage", "type": "investment", "subtype": "roth", "klass": "investment", "last4": "0005", "balance": 34430.5, "as_of": "2026-10-25"},
+  {"id": "demo-loan", "account": "Demo Auto Loan (...0006)", "institution": "Demo Credit Union", "type": "loan", "subtype": "auto", "klass": "liability", "last4": "0006", "balance": -10405.17, "as_of": "2026-10-25"},
+  {"id": "demo-car", "account": "Demo Vehicle (est. value)", "institution": "Manual", "type": "other", "subtype": "vehicle", "klass": "property", "last4": null, "balance": 18421.2, "as_of": "2026-10-25"}
+ ]
+}

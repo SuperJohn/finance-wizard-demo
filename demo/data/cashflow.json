@@ -1,0 +1,22 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "months": [
+  {"month": "2025-11", "income": 5846.24, "spend": 4776.66, "net": 1069.58, "savings_rate": 0.183},
+  {"month": "2025-12", "income": 5843.56, "spend": 4362.37, "net": 1481.19, "savings_rate": 0.253},
+  {"month": "2026-01", "income": 7648.69, "spend": 4829.23, "net": 2819.46, "savings_rate": 0.369},
+  {"month": "2026-02", "income": 5849.89, "spend": 4231.98, "net": 1617.91, "savings_rate": 0.277},
+  {"month": "2026-03", "income": 5849.46, "spend": 4480.51, "net": 1368.95, "savings_rate": 0.234},
+  {"month": "2026-04", "income": 8490.41, "spend": 4427.55, "net": 4062.86, "savings_rate": 0.479},
+  {"month": "2026-05", "income": 6089.59, "spend": 6200.96, "net": -111.37, "savings_rate": -0.018},
+  {"month": "2026-06", "income": 7033.27, "spend": 4535.89, "net": 2497.38, "savings_rate": 0.355},
+  {"month": "2026-07", "income": 6086.8, "spend": 5396.71, "net": 690.09, "savings_rate": 0.113},
+  {"month": "2026-08", "income": 6086.73, "spend": 4461.28, "net": 1625.45, "savings_rate": 0.267},
+  {"month": "2026-09", "income": 8184.03, "spend": 4484.45, "net": 3699.58, "savings_rate": 0.452},
+  {"month": "2026-10", "income": 6089.89, "spend": 4103.88, "net": 1986.01, "savings_rate": 0.326}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "goals": [
+  {"name": "Emergency fund (6 months)", "target": 30000, "by": "2027-06", "track": "cash", "current": null},
+  {"name": "Home down payment", "target": 90000, "by": "2029-12", "track": "investment", "current": null},
+  {"name": "Pay off auto loan", "target": 0, "by": "2028-03", "track": "liability", "current": null},
+  {"name": "Japan trip fund", "target": 6000, "by": "2027-04", "track": "cash", "current": null}
+ ],
+ "budgets": {
+  "Groceries": 650,
+  "Restaurants & Bars": 300,
+  "Shopping": 250,
+  "Coffee Shops": 60,
+  "Entertainment & Recreation": 120,
+  "Gas": 160,
+  "Digital Subscriptions": 70,
+  "Taxi & Ride Shares": 50
+ },
+ "merchant_rules": {
+  "bluebird coffee": "Coffee Shops",
+  "zipride": "Taxi & Ride Shares",
+  "metro park & go": "Parking & Tolls"
+ },
+ "ui_dashboard": ["kpis", "networth", "cashflow", "forecast", "categories", "recurring", "anomalies"],
+ "ui_scenarios": [
+  {"name": "Annual bonus $8k in March", "lump": 8000, "lumpM": "2027-03", "income": 0, "incomeStart": "2027-03", "extra": 0, "on": true},
+  {"name": "Raise: +$450/mo net from January", "lump": 0, "lumpM": "2027-01", "income": 450, "incomeStart": "2027-01", "extra": 0, "on": true},
+  {"name": "Freelance retainer +$1,200/mo", "lump": 0, "lumpM": "2026-12", "income": 1200, "incomeStart": "2026-12", "extra": 0, "on": false},
+  {"name": "Move to a bigger place (+$650/mo)", "lump": -3000, "lumpM": "2027-02", "income": 0, "incomeStart": "2027-02", "extra": 650, "on": true},
+  {"name": "Sabbatical: 3 months unpaid", "lump": -18000, "lumpM": "2027-06", "income": 0, "incomeStart": "2027-06", "extra": 0, "on": false},
+  {"name": "Car paid off early (-$412/mo)", "lump": -9000, "lumpM": "2027-01", "income": 0, "incomeStart": "2027-01", "extra": -412, "on": false}
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "recurring": [
+  {"merchant": "StreamFlix", "category": "Digital Subscriptions", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 19.99, "first_amount": 17.99, "price_creep_pct": 11.1, "annualized": 239.88, "last_charge": "2026-10-09", "next_expected": "2026-11-09", "variable": false},
+  {"merchant": "TuneBox Music", "category": "Digital Subscriptions", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 11.99, "first_amount": 11.99, "price_creep_pct": 0.0, "annualized": 143.88, "last_charge": "2026-10-14", "next_expected": "2026-11-14", "variable": false},
+  {"merchant": "CloudNotes Pro", "category": "Digital Subscriptions", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 10.0, "first_amount": 10.0, "price_creep_pct": 0.0, "annualized": 120.0, "last_charge": "2026-10-03", "next_expected": "2026-11-03", "variable": false},
+  {"merchant": "PixelForge Photo", "category": "Digital Subscriptions", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 9.99, "first_amount": 9.99, "price_creep_pct": 0.0, "annualized": 119.88, "last_charge": "2026-10-21", "next_expected": "2026-11-21", "variable": false},
+  {"merchant": "Peak Climbing Gym", "category": "Fitness", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 85.0, "first_amount": 79.0, "price_creep_pct": 7.6, "annualized": 1020.0, "last_charge": "2026-10-01", "next_expected": "2026-11-01", "variable": false},
+  {"merchant": "Shieldwell Auto Insurance", "category": "Auto Insurance", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 164.0, "first_amount": 151.0, "price_creep_pct": 8.6, "annualized": 1968.0, "last_charge": "2026-10-22", "next_expected": "2026-11-22", "variable": false},
+  {"merchant": "Hearthstone Renters Insurance", "category": "Renters Insurance", "account": "Demo Rewards Card (...0003)", "cadence": "monthly", "charges": 12, "last_amount": 14.5, "first_amount": 14.5, "price_creep_pct": 0.0, "annualized": 174.0, "last_charge": "2026-10-05", "next_expected": "2026-11-05", "variable": false},
+  {"merchant": "Orbit Mobile", "category": "Phone", "account": "Demo Bank Checking (...0001)", "cadence": "monthly", "charges": 12, "last_amount": 65.0, "first_amount": 65.0, "price_creep_pct": 0.0, "annualized": 780.0, "last_charge": "2026-10-18", "next_expected": "2026-11-18", "variable": false},
+  {"merchant": "Skyline Internet", "category": "Internet & Cable", "account": "Demo Bank Checking (...0001)", "cadence": "monthly", "charges": 12, "last_amount": 70.0, "first_amount": 70.0, "price_creep_pct": 0.0, "annualized": 840.0, "last_charge": "2026-10-11", "next_expected": "2026-11-11", "variable": false},
+  {"merchant": "Brightwater Power & Light", "category": "Gas & Electric", "account": "Demo Bank Checking (...0001)", "cadence": "monthly", "charges": 12, "last_amount": 68.61, "first_amount": 64.47, "price_creep_pct": 6.4, "annualized": 1020.21, "last_charge": "2026-10-16", "next_expected": "2026-11-16", "variable": true}
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "notes": [
+  {"txn_id": "demo-00328", "comment": "New laptop for freelance work; keep the receipt for taxes.", "labels": ["freelance", "big-purchase", "tax"]},
+  {"txn_id": "demo-00465", "comment": "Summer trip lodging, split with two friends (they paid me back).", "labels": ["trip", "shared"]},
+  {"txn_id": "demo-00529", "comment": "Charged twice for one dinner; dispute opened.", "labels": ["dispute"]},
+  {"txn_id": "demo-00229", "comment": "Ask the insurer about reimbursement.", "labels": ["medical", "reimbursable"]},
+  {"txn_id": "demo-00160", "comment": "First freelance invoice of the year.", "labels": ["freelance", "income"]},
+  {"txn_id": "demo-00041", "comment": "Barely used; candidate to cancel.", "labels": ["cancel?"]}
+ ]
+}

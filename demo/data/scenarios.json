@@ -1,0 +1,16 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "scenarios": [
+  {"name": "Annual bonus $8k in March", "lump": 8000, "lumpM": "2027-03", "income": 0, "incomeStart": "2027-03", "extra": 0, "on": true},
+  {"name": "Raise: +$450/mo net from January", "lump": 0, "lumpM": "2027-01", "income": 450, "incomeStart": "2027-01", "extra": 0, "on": true},
+  {"name": "Freelance retainer +$1,200/mo", "lump": 0, "lumpM": "2026-12", "income": 1200, "incomeStart": "2026-12", "extra": 0, "on": false},
+  {"name": "Move to a bigger place (+$650/mo)", "lump": -3000, "lumpM": "2027-02", "income": 0, "incomeStart": "2027-02", "extra": 650, "on": true},
+  {"name": "Sabbatical: 3 months unpaid", "lump": -18000, "lumpM": "2027-06", "income": 0, "incomeStart": "2027-06", "extra": 0, "on": false},
+  {"name": "Car paid off early (-$412/mo)", "lump": -9000, "lumpM": "2027-01", "income": 0, "incomeStart": "2027-01", "extra": -412, "on": false}
+ ]
+}

@@ -1,5 +1,7 @@
 # data never goes to git
 data/
+# ...except the committed synthetic demo dataset
+!demo/data/
 *.duckdb
 *.duckdb.wal
 *.parquet

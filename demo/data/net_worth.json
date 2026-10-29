@@ -1,0 +1,22 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "months": [
+  {"month": "2025-11", "date": "2025-11-30", "cash": 25269.58, "investment": 71197.22, "property": 21250.6, "liability": -16109.78, "net_worth": 101607.62},
+  {"month": "2025-12", "date": "2025-12-28", "cash": 26250.77, "investment": 69740.13, "property": 21009.8, "liability": -15685.72, "net_worth": 101314.98},
+  {"month": "2026-01", "date": "2026-01-25", "cash": 26751.54, "investment": 69533.26, "property": 20769.0, "liability": -15100.05, "net_worth": 101953.75},
+  {"month": "2026-02", "date": "2026-02-22", "cash": 29102.66, "investment": 73021.62, "property": 20528.2, "liability": -16004.9, "net_worth": 106647.58},
+  {"month": "2026-03", "date": "2026-03-29", "cash": 28807.09, "investment": 71734.82, "property": 20227.2, "liability": -14724.88, "net_worth": 106044.23},
+  {"month": "2026-04", "date": "2026-04-26", "cash": 30549.54, "investment": 73570.53, "property": 19986.4, "liability": -14232.72, "net_worth": 109873.75},
+  {"month": "2026-05", "date": "2026-05-31", "cash": 30008.58, "investment": 76665.33, "property": 19685.4, "liability": -14033.07, "net_worth": 112326.24},
+  {"month": "2026-06", "date": "2026-06-28", "cash": 32005.96, "investment": 82699.15, "property": 19444.6, "liability": -13610.11, "net_worth": 120539.6},
+  {"month": "2026-07", "date": "2026-07-26", "cash": 30379.25, "investment": 89341.98, "property": 19203.8, "liability": -13133.54, "net_worth": 125791.49},
+  {"month": "2026-08", "date": "2026-08-30", "cash": 31571.5, "investment": 85164.67, "property": 18902.8, "liability": -12961.66, "net_worth": 122677.31},
+  {"month": "2026-09", "date": "2026-09-27", "cash": 34707.05, "investment": 87051.83, "property": 18662.0, "liability": -12499.1, "net_worth": 127921.78},
+  {"month": "2026-10", "date": "2026-10-25", "cash": 34437.2, "investment": 86895.13, "property": 18421.2, "liability": -12212.45, "net_worth": 127541.08}
+ ]
+}

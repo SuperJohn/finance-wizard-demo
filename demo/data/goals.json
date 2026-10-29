@@ -1,0 +1,14 @@
+{
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "goals": [
+  {"name": "Emergency fund (6 months)", "target": 30000, "by": "2027-06", "track": "cash", "current": 34437.2},
+  {"name": "Home down payment", "target": 90000, "by": "2029-12", "track": "investment", "current": 86895.13},
+  {"name": "Pay off auto loan", "target": 0, "by": "2028-03", "track": "liability", "current": -10405.17},
+  {"name": "Japan trip fund", "target": 6000, "by": "2027-04", "track": "cash", "current": null}
+ ]
+}

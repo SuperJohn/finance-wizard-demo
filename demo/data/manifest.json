@@ -1,0 +1,36 @@
+{
+ "app": "finance-lab",
+ "synthetic": true,
+ "persona": "Jordan Demo (fictional)",
+ "seed": 42,
+ "start": "2025-11-01",
+ "end": "2026-10-28",
+ "note": "Every account, merchant, amount and note is invented from a fixed seed. No real financial data.",
+ "generator": "demo/generate_data.py",
+ "rows": {
+  "accounts": 7,
+  "categories": 30,
+  "transactions": 659,
+  "balance_snapshots": 364,
+  "months": 12,
+  "recurring": 10,
+  "budgets": 8,
+  "goals": 4,
+  "scenarios": 6,
+  "notes": 6
+ },
+ "files": [
+  {"name": "accounts.json", "bytes": 1762, "sha256": "062a7d2abc8d399e749394b32a41d9ffd1bc303bc55b609e1c1c9223882b505a"},
+  {"name": "categories.json", "bytes": 2444, "sha256": "2d2cb32d2793aa3198614f9fce343585d1534e0aeef48028ad6f67230c047f1d"},
+  {"name": "transactions.json", "bytes": 158595, "sha256": "e3c2c3c48194b3d99f2a44615b9168326ecf6897f2dde916cf6c3b0a935cb83c"},
+  {"name": "balances.json", "bytes": 39573, "sha256": "83f25cf88e3334fa0a02c6e6f247a6e25ccacfaa74fc670707d07865357eee05"},
+  {"name": "net_worth.json", "bytes": 2124, "sha256": "bb5ea77fe667bc2ae34bb8e60b976b755532171b2c31da871d12835e3e91e2de"},
+  {"name": "cashflow.json", "bytes": 1444, "sha256": "f8060f6a55227d42830e548eb689bad23ebe51bbb2d54511ec823d37ace6f82c"},
+  {"name": "recurring.json", "bytes": 3420, "sha256": "d55a1ead90f17b2e0f7e06084971e50697d4a38538b6e5b63602ed1df862cc42"},
+  {"name": "budgets.json", "bytes": 9937, "sha256": "94f3d39089f99bafe73d562b63e6027418c814c9f29bd2a10b1fa83daf86d616"},
+  {"name": "goals.json", "bytes": 672, "sha256": "07161ca7927e1522f04fe88a02c52a13168356e1bc29fdafaf521563f5a07538"},
+  {"name": "scenarios.json", "bytes": 1112, "sha256": "a5090f8213b516fcc49e7d661b125da01f3981ee074f6fb2c32640ac355e378d"},
+  {"name": "notes.json", "bytes": 972, "sha256": "0398b8a27508e50b0cf690aebabd02feb17d250a8a92840dc5b6811310974c91"},
+  {"name": "app_state.json", "bytes": 1776, "sha256": "3d9e387459a3368ad008ca017039137448e5e365f3493b38ffda62e4977defe8"}
+ ]
+}
